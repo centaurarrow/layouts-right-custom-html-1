@@ -20,9 +20,10 @@ export default createWidget('right-custom-html-1', {
       }
 
       Ember.run.scheduleOnce('afterRender', this, function() {
+        $("div.right-custom-html-1").html('');
         $("div.right-custom-html-1").append(`<div class='contents'>${html}</div>`);
       });
-      state.renderScheduled = true;
+    //  state.renderScheduled = true;
     }
     return '';
   }
