@@ -1,4 +1,4 @@
-# name: right-custom-html-1
+# name: layouts-right-custom-html-1
 # about: Right custom html number 1 widget for use with Discourse Layouts
 # version: 0.1
 # authors: Angus McLeod & Raghu Avula
