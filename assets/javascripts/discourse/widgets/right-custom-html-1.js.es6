@@ -11,6 +11,7 @@ export default createWidget('right-custom-html-1', {
   },
 
   html(attrs, state) {
+    console.log('right-custom-html-1');
     if (!state.renderScheduled) {
       let html = this.siteSettings.layouts_right_custom_html_1;
 
