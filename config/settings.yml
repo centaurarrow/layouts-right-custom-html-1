@@ -1,4 +1,4 @@
 plugins:
-  right_layouts_custom_html_1:
+  layouts_right_custom_html_1:
     default: ''
     client: true
